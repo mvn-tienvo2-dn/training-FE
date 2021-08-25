@@ -73,7 +73,7 @@ button{
 }
 /* Header */
 .header-top-area {
-  border:1px solid #dedcdc;
+	border:1px solid #dedcdc;
 
 }
 .header-top {
@@ -109,7 +109,7 @@ button{
 
 }
 .header-top-left li {
-  padding-left: 50px;
+	padding-left: 50px;
 
 }
 
