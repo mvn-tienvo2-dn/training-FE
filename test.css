@@ -3,7 +3,7 @@
 }
 body {
 	background-color: white;
-	font-family: Arial;
+	font-family: "Arial";
 	color: #555252;
 }
 .row {
@@ -15,7 +15,6 @@ body {
 	clear: both;
 }
 h4 {
-
 	font-size: 25px;
 	font-weight: 400;
 }
@@ -24,22 +23,19 @@ h3 {
 	margin: 0;
 	font-size:20px;
 	font-weight: 400;
-
 }
 h2 {
 	padding: 0;
 	font-size:30px
 	font-weight: 400;
-	
 }
 h1 {
 	padding: 0;
 	margin: 0;
 	font-size: 70px;
 	font-weight: 400;
-
 }
-button{
+button {
 	background-color: transparent;
 	border:none;
 	margin: 0;
@@ -75,7 +71,6 @@ button{
 	cursor: pointer;
 	color: #6f42c1;
 }
-
 .header-top-left {
 	display: inline-block;
 	position: relative;
@@ -83,7 +78,7 @@ button{
 .header-top-left>li {
 	display: inline-block;
 	line-height: 50px;
-	padding:0 15px;
+	padding: 0 15px;
 	font-weight: 400;
 	cursor: pointer;
 	color: #555252;
@@ -223,11 +218,11 @@ button{
 	border-radius: 25px;
 	background-color: transparent;
 	border: 2px solid white;
+	transition: height 2s;
 }
 .btn-outline:hover {
 	background: #6f42c1;
 	border: 0;
-	transition: width 2s;
 }
 .btn-previous {
 	position: absolute;
@@ -247,7 +242,6 @@ button{
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
-
 }
 .btn-previous:hover {
 	color: #6f42c1
@@ -288,10 +282,10 @@ button{
 }
 .hr {
 	position: absolute;
-	width:75%;	
+	width: 75%;	
 	height: 3px;
 	background-color: black;
-	top :30px;
+	top: 30px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -344,14 +338,13 @@ button{
 	text-decoration: line-through;
 }
 .product-content a:hover {
-	color:  #a749ff;
+	color: #a749ff;
 }
 .product-content .title {
 	margin-bottom: 10px;
 }
-.product-actions{
-	padding-top: 10px;
-	padding-bottom: 10px;
+.product-actions {
+  padding: 10px 0;
 	display: none;
 	width: 100%;
 	background-color: #a749ff;
@@ -374,7 +367,7 @@ button{
 .product-actions li:hover {
 	background-color: #fa6bff;
 }
-.product-actions li:hover button  {
+.product-actions li:hover button {
 	color: white;
 }
 .product-item:hover .product-actions {
@@ -405,16 +398,16 @@ button{
 	position: absolute;
 	top: 40%;
 	transform: translateY(-50%);
-	left:50px;
+	left: 50px;
 	font-weight: bold;
 }
 .color-r {
 	color: #915342;
 }
 .category-detail {
-	padding: 6px 6px;
+	padding: 6px;
 	border-radius: 50%;
-	border:2px solid ;
+	border: 2px solid ;
 	position: absolute;
 	bottom: -50px;
 	text-align: center;
@@ -533,7 +526,7 @@ button{
 }
 .category-style:first-child {
 	display: inline-block;
-	margin-left:0;
+	margin-left: 0;
 }
 .blog-info {
 	width: 100%;
@@ -587,7 +580,7 @@ button{
 	padding-left: 0;
 }
 .footer-col-2 {
-	display:inline-block;
+	display: inline-block;
 	padding: 0 78px;
 	padding-right: 0;
 	width: 29%;
@@ -631,3 +624,4 @@ input[type="text"] {
 	color: white;
 	bottom: 20px;
 }
+
