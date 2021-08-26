@@ -1,38 +1,38 @@
 /*Basic selector: class & ID*/
-.content-blue{
+.content-blue {
 	color: blue;
 }
-.content-red{
+.content-red {
 	color: red;
 }
-#fs-12{
+#fs-12 {
 	font-size: 12px;
 }
-.content{
+.content {
 	font-weight: bold;
 }
 /*Child Selector*/
 
-.parent .child .child-1{
+.parent .child .child-1 {
 
 	color: green;
 }
-.child>.child-1{
+.child>.child-1 {
 	text-align: center;
 }
-.list-childs>li:first-child{
+.list-childs>li:first-child {
 	color: red;
 }
-.list-childs>li:last-child{
+.list-childs>li:last-child {
 	color: yellow;
 }
-.list-tasks>li:nth-child(2n){
+.list-tasks>li:nth-child(2n) {
 	color: orange  ;
 }
-.list-tasks>li:nth-child(2n+1){
+.list-tasks>li:nth-child(2n+1) {
 	color: purple;
 }
-.list-works>li:nth-last-child(2){
+.list-works>li:nth-last-child(2) {
 	color: red;
 }
 /*3. Attribute Selector*/
@@ -41,58 +41,57 @@ a[href]{
 	color: red;
 	font-size: 14px;	
 }
-a[href*="abc.com"]{
+a[href*="abc.com"] {
 	color: blue;
 	font-size: 16px;
 }
-a[href$=".org"]{
+a[href$=".org"] {
 	color: silver;
 	font-size: 18px;
 
 }
-a[href^="https"][href$=".com"]{
+a[href^="https"][href$=".com"] {
 	color: yellow;
 	font-size: 20px;
 
 }
-input[type="text"]{
+input[type="text"] {
 	width: 200px;
 	height: 50px;
 }
 /*4. Universal Selector*/
 
-*.car-item{
+*.car-item {
 	font-size:20px;
 }
 /*5. Pseudo-Class*/
 
-a:hover{
+a:hover {
 	color: pink;
 }
-a:visited{
+a:visited {
 	color: blue;
 }
-
-a:active{
+a:active {
 	color: purple;
 }
 /*6. Pseudo-Element*/
 
-.blog>p::first-line{
+.blog>p::first-line {
 	color: red;
 }
-.blog>p::first-letter{
+.blog>p::first-letter {
 	text-transform: uppercase;
 }
 /*7. Box model*/
 
-.title{
+.title {
 	width: 300px;
 	border: 15px solid red;
 	padding: 40px;
 	margin-bottom: 50px;
 }
-.content-blog{
+.content-blog {
 	width: 500px;
 	border: 15px solid green;
 	padding: 40px;
@@ -100,7 +99,7 @@ a:active{
 }
 /*8.Text & font*/
 
-.text-content{
+.text-content {
 	text-align: center;
 	text-overflow: inherit;
 	text-transform: uppercase;
@@ -111,26 +110,26 @@ a:active{
 	font-family: sans-serif;
 }
 /*9.Color & Background*/
-.box1{
+.box1 {
 	color: red;
 	background: blue;
 	font-size: 30px;
 }
-.box2{
+.box2 {
 	color: green;
 	background-color: pink;
 	font-size: 30px;
 }
-.box3{
+.box3 {
 	color: purple;
 	font-size: 30px;
 	background-image: url(https://i.pinimg.com/originals/2f/60/6a/2f606ad14bf9171e5f41b42a01b4441f.jpg);
 }
-.box4{
+.box4 {
 	color: purple;
 	font-size: 30px;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  background-attachment: fixed;
+  background-position: center;
 	background-image: url(https://i.pinimg.com/originals/2f/60/6a/2f606ad14bf9171e5f41b42a01b4441f.jpg);
 }
