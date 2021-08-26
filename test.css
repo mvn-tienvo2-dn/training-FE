@@ -3,7 +3,7 @@
 }
 body {
 	background-color: white;
-	font-family: Arial;
+	font-family: "Arial";
 	color: #555252;
 }
 .row {
@@ -15,7 +15,6 @@ body {
 	clear: both;
 }
 h4 {
-
 	font-size: 25px;
 	font-weight: 400;
 }
@@ -24,22 +23,19 @@ h3 {
 	margin: 0;
 	font-size:20px;
 	font-weight: 400;
-
 }
 h2 {
 	padding: 0;
 	font-size:30px
 	font-weight: 400;
-	
 }
 h1 {
 	padding: 0;
 	margin: 0;
 	font-size: 70px;
 	font-weight: 400;
-
 }
-button{
+button {
 	background-color: transparent;
 	border:none;
 	margin: 0;
@@ -75,7 +71,6 @@ button{
 	cursor: pointer;
 	color: #6f42c1;
 }
-
 .header-top-left {
 	display: inline-block;
 	position: relative;
@@ -83,7 +78,7 @@ button{
 .header-top-left>li {
 	display: inline-block;
 	line-height: 50px;
-	padding:0 15px;
+	padding: 0 15px;
 	font-weight: 400;
 	cursor: pointer;
 	color: #555252;
@@ -150,7 +145,7 @@ button{
 	line-height: 94px;
 }
 .header-menu a:hover {
-	color:  #6f42c1;
+	color: #6f42c1;
 }
 .header-nav {
 	display: inline-block;
@@ -211,7 +206,7 @@ button{
 }
 .content-carousel {
 	position: absolute;
-	top:50%;
+	top: 50%;
 	transform: translateY(-50%);
 	line-height: 70px;
 	color: white;
@@ -220,25 +215,23 @@ button{
 .content-carousel a {
 }
 .btn {
-	padding: 15px 45px 15px 45px;
-	
+	padding: 15px 45px;
 }
 .btn-outline {
 	border-radius: 25px;
 	background-color: transparent;
 	border: 2px solid white;
+	transition: height 2s;
 }
 .btn-outline:hover {
 	background: #6f42c1;
-	border:0;
-	transition: width 2s;
-
+	border: 0;
 }
 .btn-previous {
 	position: absolute;
-	top:50%;
+	top: 50%;
 	transform: translateY(-50%);
-	margin-left: 90px;
+	left: 90px;
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
@@ -246,13 +239,12 @@ button{
 .btn-next {
 	position: absolute;
 	right: 0;
-	top:50%;
+	top: 50%;
 	transform: translateY(-50%);
-	margin-right: 90px;
+	right: 90px;
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
-
 }
 .btn-previous:hover {
 	color: #6f42c1
@@ -270,9 +262,6 @@ button{
 .banner-list li:last-child {
 	float: right;
 }
-.banner-list li:hover {
-	
-}
 .section-product {
 	padding-top: 100px;
 }
@@ -281,7 +270,7 @@ button{
 }
 .product-tab li {
 	display: inline-block;
-	padding:0 15px;
+	padding: 0 15px;
 	position: relative;
 }
 .product-tab li:first-child {
@@ -296,23 +285,21 @@ button{
 }
 .hr {
 	position: absolute;
-	width:75%;	
+	width: 75%;	
 	height: 3px;
 	background-color: black;
-	top:30px;
-	left:50%;
+	top: 30px;
+	left: 50%;
 	transform: translateX(-50%);
 }
 .product-list {
-	margin-top: 50px;
-	display: inline-block;
-	margin-bottom: 40px;
+	margin: 50px 0 40px 0;
 }
 .product-item {
 	width: 25%;
 	float: left;
 	padding: 0 15px;
-	margin-top:20px;
+	margin-bottom: 20px;
 }
 .product-img {
 	position: relative;
@@ -325,8 +312,8 @@ button{
 }
 .product-badges {
 	position: absolute;
-	top:10px;
-	right:12px;
+	top: 10px;
+	right: 12px;
 }
 .product-discount {
 	display: block;
@@ -334,7 +321,6 @@ button{
 	color:white;
 	border-radius: 4px;
 	text-align: center;
-
 }
 .product-new {
 	display: block;
@@ -354,14 +340,13 @@ button{
 	text-decoration: line-through;
 }
 .product-content a:hover {
-	color:  #a749ff;
+	color: #a749ff;
 }
 .product-content .title {
 	margin-bottom: 10px;
 }
-.product-actions{
-	padding-top: 10px;
-	padding-bottom: 10px;
+.product-actions {
+  padding: 10px 0;
 	display: none;
 	width: 100%;
 	background-color: #a749ff;
@@ -377,26 +362,23 @@ button{
 .product-actions li {
 	display: inline-block;
 	background-color: white;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	color: black;
 	border-radius: 50%;
-
 }
 .product-actions li:hover {
 	background-color: #fa6bff;
 }
-.product-actions li:hover button  {
+.product-actions li:hover button {
 	color: white;
 }
 .product-item:hover .product-actions {
 	display: inline-block;
-
 }
 .product-more {
 	text-align: center;
 	text-decoration: underline;
 	text-transform: uppercase;
-	position: 
 	margin-top: 20px;
 	display: block;
 }
@@ -418,20 +400,18 @@ button{
 	position: absolute;
 	top: 40%;
 	transform: translateY(-50%);
-	left:50px;
+	left: 50px;
 	font-weight: bold;
-	font-family: Cormorant Garamond;
 }
 .color-r {
 	color: #915342;
-
 }
 .category-detail {
-	padding: 6px 6px 6px 6px;
+	padding: 6px;
 	border-radius: 50%;
-	border:2px solid ;
+	border: 2px solid ;
 	position: absolute;
-	bottom:-50px;
+	bottom: -50px;
 	text-align: center;
 	font-size: 13px;
 }
@@ -483,7 +463,6 @@ button{
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
 .support-list li {
 	display: inline-block;
 	padding: 30px 65px 30px 65px;
@@ -530,7 +509,6 @@ button{
 }
 .blog-list li:first-child {
 	padding-left: 0;
-
 }
 .badges-red {
 	padding: 3px 11px;
@@ -550,7 +528,7 @@ button{
 }
 .category-style:first-child {
 	display: inline-block;
-	margin-left:0;
+	margin-left: 0;
 }
 .blog-info {
 	width: 100%;
@@ -584,7 +562,7 @@ button{
 	color: #a749ff;
 }
 .title-footer {
-	font-size: 18px !important;
+	font-size: 18px;
 	color: black;
 }
 .page-footer li {
@@ -594,7 +572,6 @@ button{
 .page-footer li:first-child {
 	padding-top: 0;
 }
-
 .footer-col {
 	width: 16.66666%;
 	vertical-align: middle;
@@ -605,15 +582,12 @@ button{
 	padding-left: 0;
 }
 .footer-col-2 {
-	display:inline-block;
+	display: inline-block;
 	padding: 0 78px;
 	padding-right: 0;
 	width: 29%;
 	vertical-align: middle;
-
-
 }
-
 .footer-col-2 p {
 	margin-bottom: 25px;
 	padding-right: 0;
@@ -621,7 +595,7 @@ button{
 .footer-col-2 button {
 	display: block;
 	text-decoration: underline;
-	font-size: 13px !important;
+	font-size: 13px;
 	font-weight: 400; 
 }
 .footer-col-2 button:hover {
@@ -646,7 +620,7 @@ input[type="text"] {
 }
 .scroll-top {
 	position: absolute;
-	padding: 16px 20px 16px 20px;
+	padding: 16px 20px;
 	border-radius: 50%;
 	background-color: #a749ff;
 	color: white;
