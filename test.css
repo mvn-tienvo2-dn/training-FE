@@ -36,13 +36,13 @@ h4 {
 h3 {
 	padding: 0;
 	margin: 0;
-	font-size:20px;
+	font-size: 20px;
 	font-weight: 400;
 
 }
 h2 {
 	padding: 0;
-	font-size:25px;
+	font-size: 25px;
 	font-weight: 600;
 	
 }
@@ -53,15 +53,15 @@ h1 {
 	font-weight: 400;
 
 }
-button{
+button {
 	background-color: transparent;
-	border:none;
+	border: none;
 	margin: 0;
 	padding: 0;
 }
 .container {
 	max-width: 1200px;
-	margin:0 auto;
+	margin: 0 auto;
 	padding: 0 15px;
 }
 .clearfix::after {
@@ -168,7 +168,7 @@ button{
 	display: none;
 }
 .header-menu a:hover {
-	color:  #6f42c1;
+	color: #6f42c1;
 }
 .header-nav {
 	display: inline-block;
@@ -193,7 +193,6 @@ button{
 .header-actions button:hover {
 	color: #6f42c1;
 }
-
 .header-actions li:first-child {
 	padding-left: 0;
 }
@@ -230,7 +229,7 @@ button{
 }
 .content-carousel {
 	position: absolute;
-	top:50%;
+	top: 50%;
 	transform: translateY(-50%);
 	color: white;
 }
@@ -239,7 +238,7 @@ button{
 }
 
 .btn {
-	padding: 15px 45px 15px 45px;
+	padding: 15px 45px;
 	
 }
 .btn-outline {
@@ -251,13 +250,12 @@ button{
 	background: #6f42c1;
 	border:0;
 	transition: width 2s;
-
 }
 .btn-previous {
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
-	margin-left: 90px;
+	left: 90px;
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
@@ -265,13 +263,12 @@ button{
 .btn-next {
 	position: absolute;
 	right: 0;
-	top:50%;
+	top: 50%;
 	transform: translateY(-50%);
-	margin-right: 90px;
+	right: 90px;
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
-
 }
 .btn-previous:hover {
 	color: #6f42c1
@@ -285,7 +282,6 @@ button{
 .banner-list {
 	display: inline-block;
 }
-
 .banner-list li {
 	display: inline-block;
 	margin-left: 25px;
@@ -296,8 +292,10 @@ button{
 .banner-list li:last-child {
 	float: right;
 }
-.banner-list img:hover{
+.banner-list img {
 	transition: all .5s ease 0s;
+}
+.banner-list img:hover{
 	transform: scale(1.1);
 }
 .section-product {
@@ -323,11 +321,11 @@ button{
 }
 .hr {
 	position: absolute;
-	width:75%;	
+	width: 75%;	
 	height: 3px;
 	background-color: black;
-	top:30px;
-	left:50%;
+	top: 30px;
+	left: 50%;
 	transform: translateX(-50%);
 }
 .product-list {
@@ -339,7 +337,7 @@ button{
 	width: 25%;
 	float: left;
 	padding: 0 15px;
-	margin-top:20px;
+	margin-top: 20px;
 }
 .product-img {
 	position: relative;
@@ -352,8 +350,8 @@ button{
 }
 .product-badges {
 	position: absolute;
-	top:10px;
-	right:12px;
+	top: 10px;
+	right: 12px;
 }
 .product-discount {
 	display: block;
@@ -361,7 +359,6 @@ button{
 	color:white;
 	border-radius: 4px;
 	text-align: center;
-
 }
 .product-new {
 	display: block;
@@ -381,7 +378,7 @@ button{
 	text-decoration: line-through;
 }
 .product-content a:hover {
-	color:  #a749ff;
+	color: #a749ff;
 }
 .product-content .title {
 	margin-bottom: 10px;
@@ -390,8 +387,7 @@ button{
 	font-size: 16px;
 }
 .product-actions{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10 0;
 	display: none;
 	width: 100%;
 	background-color: #a749ff;
@@ -407,7 +403,7 @@ button{
 .product-actions li {
 	display: inline-block;
 	background-color: white;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	color: black;
 	border-radius: 50%;
 
@@ -420,13 +416,11 @@ button{
 }
 .product-item:hover .product-actions {
 	display: inline-block;
-
 }
 .product-more {
 	text-align: center;
 	text-decoration: underline;
 	text-transform: uppercase;
-	position: 
 	margin-top: 20px;
 	display: block;
 	font-weight: 600;
@@ -442,28 +436,27 @@ button{
 }
 .categories-list li { 
 	display: inline-block;
-	margin-left: 20px;
+	left: 20px;
 	position: relative;
 }
 .categories-list li:first-child {
-	margin-left: 0;
+	left: 0;
 }
 .categories-content {
 	position: absolute;
 	top: 30%;
 	transform: translateY(-50%);
 	padding-left:40px; 
-	font-weight: 600 !important;
+	font-weight: 600;
 	font-family: 'Cormorant Garamond', serif;
 }
 .categories-list li img:hover {
 	transition: all .5s ease 0s; 
 	transform: scale(1.1);
 }
-
 .categories-content h2 {
 	font-size: 36px;
-	font-weight: 600 !important;
+	font-weight: 600;
 }
 .categories-content p {
 	font-size: 18px;
@@ -473,11 +466,11 @@ button{
 
 }
 .category-detail {
-	padding: 6px 6px 6px 6px;
+	padding: 6px;
 	border-radius: 50%;
 	border:2px solid ;
 	position: absolute;
-	bottom:-60px;
+	bottom: -60px;
 	text-align: center;
 	font-size: 13px;
 }
@@ -537,10 +530,10 @@ button{
 
 .support-list li {
 	display: inline-block;
-	padding: 30px 35px 30px 35px;
+	padding: 30px 35px;
 	vertical-align: middle;
-	text-align: center !important;
-	margin-left: 19px;
+	text-align: center;
+	left: 19px;
 	width: 32%;
 	position: relative;
 }
@@ -565,7 +558,6 @@ button{
 	bottom: 3px;
 }
 .icon-support:hover {
-	transition: all .5s ease 0s; 
 	transform: scale(1.2);
 }
 .section-post {
@@ -593,14 +585,13 @@ button{
 
 }
 .blog-list li img:hover {
-	transition: all .5s ease 0s; 
 	transform: scale(1.2);
 }
 .badges-red {
 	padding: 3px 11px;
 	background-color: #c61a32;
 	color: white;
-	font-weight:600;
+	font-weight: 600;
 }
 .blog-categories {
 	position: absolute;
@@ -614,7 +605,7 @@ button{
 }
 .category-style:first-child {
 	display: inline-block;
-	margin-left:0;
+	left:0;
 }
 .blog-info {
 	width: 100%;
@@ -648,7 +639,7 @@ button{
 	color: #a749ff;
 }
 .title-footer {
-	font-size: 18px !important;
+	font-size: 18px;
 	color: black;
 }
 .page-footer li {
@@ -670,16 +661,11 @@ button{
 }
 .footer-col-2 {
 	display:inline-block;
-	padding: 0 70px;
-	padding-right: 0;
+	padding: 21px 0 0 70px;
 	width: 32%;
 	vertical-align: middle;
-	padding-top: 21px;
-	line-height: 20px;
-
-
+	line-height: 20px
 }
-
 .footer-col-2 p {
 	margin-bottom: 25px;
 	padding-right: 0;
@@ -687,7 +673,7 @@ button{
 .footer-col-2 button {
 	display: block;
 	text-decoration: underline;
-	font-size: 13px !important;
+	font-size: 13px;
 	font-weight: 400; 
 }
 .footer-col-2 button:hover {
@@ -712,7 +698,7 @@ input[type="text"] {
 }
 .scroll-top {
 	position: absolute;
-	padding: 16px 20px 16px 20px;
+	padding: 16px 20px;
 	border-radius: 50%;
 	background-color: #a749ff;
 	color: white;
@@ -737,7 +723,6 @@ input[type="text"] {
 	}
 	.categories-list li {
 		width: 33%;
-
 	}
 	.categories-list li img {
 		width: 100%;
@@ -748,22 +733,18 @@ input[type="text"] {
 	.list-deal img {
 		width: 100%;
 	}
-
 	.time-remaining li {
 		font-size: 40px;
 		width: 20%;
 		padding:0;
-
 	}
 	.time-remaining li p {
 		font-size: 18px;
 	}
 	.support-list li {
 		width: 30.8%;
-		padding: 30px 25px 30px 25px;
-		margin-left:30px;
-
-
+		padding: 30px 25px;
+		margin-left: 30px;
 	}
 	.blog-list .blog-item {
 		width: 33%;
@@ -815,22 +796,18 @@ input[type="text"] {
 	.list-deal img {
 		width: 100%;
 	}
-
 	.time-remaining li {
 		font-size: 40px;
 		width: 20%;
 		padding:0;
-
 	}
 	.time-remaining li p {
 		font-size: 18px;
 	}
 	.support-list li {
 		width: 30.8%;
-		padding: 30px 25px 30px 25px;
-		margin-left:30px;
-
-
+		padding: 30px 25px;
+		margin-left: 30px;
 	}
 	.blog-list .blog-item {
 		width: 31%;
@@ -880,7 +857,6 @@ input[type="text"] {
 	.categories-list li {
 		width: 31%;
 		margin-left:29.5px;
-
 	}
 	.categories-list li:first-child {
 		margin-left: 0;	
@@ -906,10 +882,8 @@ input[type="text"] {
 	}
 	.support-list li {
 		width: 30.8%;
-		padding: 30px 25px 30px 25px;
+		padding: 30px 25px;
 		margin-left:30px;
-
-
 	}
 	.blog-list .blog-item {
 		width: 31%;
@@ -980,7 +954,6 @@ input[type="text"] {
 	.categories-list li {
 		width: 32%;
 		margin-left: 10px;
-
 	}
 	.categories-list li:first-child {
 		margin-left: 0;	
@@ -992,21 +965,20 @@ input[type="text"] {
 		position: absolute;
 		top: 30%;
 		transform: translateY(-50%);
-		padding-left:15px; 
-		font-weight: 600 !important;
+		padding-left: 15px; 
+		font-weight: 600;
 		font-family: 'Cormorant Garamond', serif;
 	}
-
 	.categories-content h2 {
 		font-size: 27px;
-		font-weight: 600 !important;
+		font-weight: 600;
 	}
 	.category-detail {
-		padding: 3px 4px 3px 4px;
+		padding: 3px 4px;
 		border-radius: 50%;
-		border:2px solid ;
+		border: 2px solid ;
 		position: absolute;
-		bottom:-45px;
+		bottom: -45px;
 		text-align: center;
 		font-size: 13px;
 	}
@@ -1025,26 +997,22 @@ input[type="text"] {
 	.list-deal li h3 {
 		font-size: 35px;
 	}
-
 	.time-remaining li {
 		font-size: 30px;
 		width: 20%;
 		padding:0;
-
 	}
 	.time-remaining li p {
 		font-size: 15px;
 	}
 	.support-list li {
 		width: 47%;
-		padding: 30px 25px 30px 25px;
-		margin-left:30px;
-
-
+		padding: 30px 25px;
+		margin-left: 30px;
 	}
 	.support-list li:last-child {
 		margin-left: 0;
-		margin-top:10px;
+		margin-top: 10px;
 	}
 	.blog-list .blog-item {
 		width: 47%;
@@ -1054,8 +1022,7 @@ input[type="text"] {
 	}
 	.blog-item:last-child {
 		display: block;
-		margin-top: 30px;
-		margin-left: 7px;
+	  margin: 30px 0 7px 0;
 	}
 	.footer-col {
 		display: inline-block;
@@ -1100,7 +1067,7 @@ input[type="text"] {
 		line-height: 70px;
 	}
 	.header-actions .counter {
-		top:10px;
+		top: 10px;
 	}
 	.carousel-item .image-carousel {
 		height: 400px;
@@ -1132,7 +1099,6 @@ input[type="text"] {
 	.categories-list li {
 		width: 100%;
 		margin: 0 0 30px 0;
-
 	}
 	.categories-list li:first-child {
 		margin-top: 0;	
@@ -1144,21 +1110,20 @@ input[type="text"] {
 		position: absolute;
 		top: 40%;
 		transform: translateY(-50%);
-		padding-left:15px; 
-		font-weight: 600 !important;
+		padding-left: 15px; 
+		font-weight: 600;
 		font-family: 'Cormorant Garamond', serif;
 	}
-
 	.categories-content h2 {
 		font-size: 27px;
-		font-weight: 600 !important;
+		font-weight: 600;
 	}
 	.category-detail {
-		padding: 3px 4px 3px 4px;
+		padding: 3px 4px;
 		border-radius: 50%;
-		border:2px solid ;
+		border: 2px solid ;
 		position: absolute;
-		bottom:-45px;
+		bottom: -45px;
 		text-align: center;
 		font-size: 13px;
 	}
@@ -1182,22 +1147,19 @@ input[type="text"] {
 	.time-remaining li {
 		font-size: 22px;
 		width: 20%;
-		padding:0;
-
+		padding: 0;
 	}
 	.time-remaining li p {
 		font-size: 14px;
 	}
 	.support-list li {
 		width: 45%;
-		padding: 30px 25px 30px 25px;
-		margin-left:30px;
-
-
+		padding: 30px 25px;
+		margin-left: 30px;
 	}
 	.support-list li:last-child {
 		margin-left: 0;
-		margin-top:10px;
+		margin-top: 10px;
 	}
 	.blog-list .blog-item {
 		width: 47%;
@@ -1207,8 +1169,7 @@ input[type="text"] {
 	}
 	.blog-item:last-child {
 		display: block;
-		margin-top: 30px;
-		margin-left: 7px;
+	  margin: 30px 0 7px 0;
 	}
 	.footer-col {
 		display: inline-block;
@@ -1253,7 +1214,7 @@ input[type="text"] {
 		line-height: 70px;
 	}
 	.header-actions .counter {
-		top:10px;
+		top: 10px;
 	}
 	.carousel-item .image-carousel {
 		height: 400px;
@@ -1297,21 +1258,20 @@ input[type="text"] {
 		position: absolute;
 		top: 40%;
 		transform: translateY(-50%);
-		padding-left:15px; 
-		font-weight: 600 !important;
+		padding-left: 15px; 
+		font-weight: 600;
 		font-family: 'Cormorant Garamond', serif;
 	}
-
 	.categories-content h2 {
 		font-size: 27px;
-		font-weight: 600 !important;
+		font-weight: 600;
 	}
 	.category-detail {
-		padding: 3px 4px 3px 4px;
+		padding: 3px 4px;
 		border-radius: 50%;
-		border:2px solid ;
+		border: 2px solid ;
 		position: absolute;
-		bottom:-45px;
+		bottom: -45px;
 		text-align: center;
 		font-size: 13px;
 	}
@@ -1336,20 +1296,17 @@ input[type="text"] {
 		font-size: 22px;
 		width: 20%;
 		padding:0;
-
 	}
 	.time-remaining li p {
 		font-size: 14px;
 	}
 	.support-list>li {
 		width: 100%;
-		padding: 30px 25px 30px 25px;
-		margin-top:50px;
+		padding: 30px 25px;
+		margin-top: 50px;
 		text-align: center;
 		margin: 0 0 20px 0;
-
 	}
-
 	.blog-list .blog-item {
 		width: 100%;
 		padding: 0;
@@ -1358,14 +1315,12 @@ input[type="text"] {
 	.blog-item img {
 		width: 100%;
 	}
-	
 	.footer-col {
 		display: inline-block;
-		padding-left:10px;
+		padding-left: 10px;
 		width: 100%;
 		text-align: left;
 	}
-
 	.footer-col-2 {
 		padding-left: 10px ;
 		width: 100%;
@@ -1433,7 +1388,6 @@ input[type="text"] {
 	.categories-list li {
 		width: 100%;
 		margin: 0 0 30px 0;
-
 	}
 	.categories-list li:first-child {
 		margin-top: 0;	
@@ -1445,21 +1399,20 @@ input[type="text"] {
 		position: absolute;
 		top: 40%;
 		transform: translateY(-50%);
-		padding-left:15px; 
-		font-weight: 600 !important;
+		padding-left: 15px; 
+		font-weight: 600;
 		font-family: 'Cormorant Garamond', serif;
 	}
-
 	.categories-content h2 {
 		font-size: 27px;
-		font-weight: 600 !important;
+		font-weight: 600;
 	}
 	.category-detail {
-		padding: 3px 4px 3px 4px;
+		padding: 3px 4px;
 		border-radius: 50%;
-		border:2px solid ;
+		border: 2px solid ;
 		position: absolute;
-		bottom:-45px;
+		bottom: -45px;
 		text-align: center;
 		font-size: 13px;
 	}
@@ -1479,25 +1432,21 @@ input[type="text"] {
 	.list-deal li h3 {
 		font-size: 32px;
 	}
-
 	.time-remaining li {
 		font-size: 22px;
 		width: 20%;
 		padding:0;
-
 	}
 	.time-remaining li p {
 		font-size: 14px;
 	}
 	.support-list>li {
 		width: 100%;
-		padding: 30px 25px 30px 25px;
-		margin-top:50px;
+		padding: 30px 25px;
+		margin-top: 50px;
 		text-align: center;
 		margin: 0 0 20px 0;
-
 	}
-
 	.blog-list .blog-item {
 		width: 100%;
 		padding: 0;
@@ -1506,14 +1455,12 @@ input[type="text"] {
 	.blog-item img {
 		width: 100%;
 	}
-	
 	.footer-col {
 		display: inline-block;
-		padding-left:10px;
+		padding-left: 10px;
 		width: 100%;
 		text-align: left;
 	}
-
 	.footer-col-2 {
 		padding-left: 10px ;
 		width: 100%;
@@ -1585,7 +1532,6 @@ input[type="text"] {
 	.categories-list li {
 		width: 100%;
 		margin: 0 0 30px 0;
-
 	}
 	.categories-list li:first-child {
 		margin-top: 0;	
@@ -1597,21 +1543,20 @@ input[type="text"] {
 		position: absolute;
 		top: 40%;
 		transform: translateY(-50%);
-		padding-left:15px; 
-		font-weight: 600 !important;
+		padding-left: 15px; 
+		font-weight: 600;
 		font-family: 'Cormorant Garamond', serif;
 	}
-
 	.categories-content h2 {
 		font-size: 27px;
-		font-weight: 600 !important;
+		font-weight: 600;
 	}
 	.category-detail {
-		padding: 3px 4px 3px 4px;
+		padding: 3px 4px;
 		border-radius: 50%;
-		border:2px solid ;
+		border: 2px solid ;
 		position: absolute;
-		bottom:-45px;
+		bottom: -45px;
 		text-align: center;
 		font-size: 13px;
 	}
@@ -1626,7 +1571,7 @@ input[type="text"] {
 		width: 80%;
 	}
 	.list-deal>li:last-child {
-		margin-top:30px;
+		margin-top: 30px;
 	}
 	.list-deal li h3 {
 		font-size: 32px;
@@ -1643,13 +1588,11 @@ input[type="text"] {
 	}
 	.support-list>li {
 		width: 100%;
-		padding: 30px 25px 30px 25px;
-		margin-top:50px;
+		padding: 30px 25px;
+		margin-top: 50px;
 		text-align: center;
 		margin: 0 0 20px 0;
-
 	}
-
 	.blog-list .blog-item {
 		width: 100%;
 		padding: 0;
@@ -1658,14 +1601,12 @@ input[type="text"] {
 	.blog-item img {
 		width: 100%;
 	}
-	
 	.footer-col {
 		display: inline-block;
 		padding-left:10px;
 		width: 100%;
 		text-align: left;
 	}
-
 	.footer-col-2 {
 		padding-left: 10px ;
 		width: 100%;
