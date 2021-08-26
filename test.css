@@ -11,9 +11,7 @@ body {
 	font-weight: 400;
 	color: #555252;
 }
-
 .fa {
-
 	font:normal normal normal 14px/1 FontAwesome;
 	font-weight: 100;
 }
@@ -31,7 +29,6 @@ body {
 	clear: both;
 }
 h4 {
-
 	font-size: 25px;
 	font-weight: 400;
 }
@@ -40,22 +37,19 @@ h3 {
 	margin: 0;
 	font-size:20px;
 	font-weight: 400;
-
 }
 h2 {
 	padding: 0;
 	font-size:25px;
 	font-weight: 600;
-	
 }
 h1 {
 	padding: 0;
 	margin: 0;
 	font-size: 70px;
 	font-weight: 400;
-
 }
-button{
+button {
 	background-color: transparent;
 	border:none;
 	margin: 0;
@@ -74,7 +68,6 @@ button{
 /* Header */
 .header-top-area {
 	border:1px solid #dedcdc;
-
 }
 .header-top {
 	display: flex;
@@ -97,7 +90,6 @@ button{
 	cursor: pointer;
 	color: #6f42c1;
 }
-
 .header-top-left {
 	display: flex;
 	align-items: center;
@@ -106,13 +98,10 @@ button{
 	cursor: pointer;
 	color: #555252;
 	line-height: 50px;
-
 }
 .header-top-left li {
 	padding-left: 50px;
-
 }
-
 .header-top-left li:before {
 	position: absolute;
 	top: 47%;
@@ -178,11 +167,9 @@ button{
 .header-menu a:hover {
 	color:  #6f42c1;
 }
-
 .header-nav>ul {
 	text-align: center;
 }
-
 .header-actions li {
 	position: relative;
 	padding-left: 15px;
@@ -193,14 +180,13 @@ button{
 .header-actions button:hover {
 	color: #6f42c1;
 }
-
 .header-actions li:first-child {
 	padding-left: 0;
 }
 .counter {
 	display: inline-block;
 	position: absolute;
-	top:20px;
+	top: 20px;
 	line-height: 21px;
 	right: -10px;
 	width: 20px;
@@ -237,10 +223,8 @@ button{
 .content-carousel h1 {
 	padding-bottom: 50px;
 }
-
 .btn {
-	padding: 15px 45px 15px 45px;
-	
+	padding: 15px 45px;
 }
 .btn-outline {
 	border-radius: 25px;
@@ -250,14 +234,12 @@ button{
 .btn-outline:hover {
 	background: #6f42c1;
 	border:0;
-	transition: width 2s;
-
 }
 .btn-previous {
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
-	margin-left: 90px;
+	left: 90px;
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
@@ -267,11 +249,10 @@ button{
 	right: 0;
 	top:50%;
 	transform: translateY(-50%);
-	margin-right: 90px;
+	right: 90px;
 	z-index: 200;
 	font-size: 30px;
 	color: #555252;
-
 }
 .btn-previous:hover {
 	color: #6f42c1
@@ -286,7 +267,6 @@ button{
 	display: flex;
 	justify-content: space-between;
 }
-
 .banner-list img:hover{
 	transition: all .5s ease 0s;
 	transform: scale(1.1);
@@ -308,7 +288,6 @@ button{
 	padding-left: 0;
 	
 }
-
 .product-tab li:hover {
 	color: black;
 }
@@ -350,7 +329,6 @@ button{
 	color:white;
 	border-radius: 4px;
 	text-align: center;
-
 }
 .product-new {
 	display: block;
@@ -378,7 +356,7 @@ button{
 .product-content h3 {
 	font-size: 16px;
 }
-.product-actions{
+.product-actions {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: none;
@@ -396,10 +374,9 @@ button{
 .product-actions li {
 	display: inline-block;
 	background-color: white;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 10px ;
 	color: black;
 	border-radius: 50%;
-
 }
 .product-actions li:hover {
 	background-color: #fa6bff;
@@ -409,13 +386,11 @@ button{
 }
 .product-item:hover .product-actions {
 	display: inline-block;
-
 }
 .product-more {
 	text-align: center;
 	text-decoration: underline;
-	text-transform: uppercase;
-	position: 
+	text-transform: uppercase; 
 	margin-top: 20px;
 	display: block;
 	font-weight: 600;
@@ -438,31 +413,28 @@ button{
 	top: 30%;
 	transform: translateY(-50%);
 	padding-left:40px; 
-	font-weight: 600 !important;
+	font-weight: 600;
 	font-family: 'Cormorant Garamond', serif;
 }
 .categories-list li img:hover {
-	transition: all .5s ease 0s; 
 	transform: scale(1.1);
 }
-
 .categories-content h2 {
 	font-size: 36px;
-	font-weight: 600 !important;
+	font-weight: 600;
 }
 .categories-content p {
 	font-size: 18px;
 }
 .color-r {
 	color: #915342;
-
 }
 .category-detail {
-	padding: 6px 6px 6px 6px;
+	padding: 6px 6px;
 	border-radius: 50%;
-	border:2px solid ;
+	border: 2px solid ;
 	position: absolute;
-	bottom:-60px;
+	bottom: -60px;
 	text-align: center;
 	font-size: 13px;
 }
@@ -477,7 +449,6 @@ button{
 .list-deal li {
 	vertical-align: middle;
 	text-align: center;
-
 }
 .list-deal {
 	display: flex;
@@ -501,8 +472,7 @@ button{
 }
 .time-remaining p {
 	font-size: 20px;
-	margin: 24px 0 0;
-
+	margin: 24px 0 0 0;
 }
 .btn-primary {
 	background-color: #c61a32;
@@ -516,11 +486,10 @@ button{
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
 .support-list li {
-	padding: 30px 82px 30px 82px;
+	padding: 30px 82px;
 	vertical-align: middle;
-	text-align: center !important;
+	text-align: center;
 	position: relative;
 }
 .support-list {
@@ -531,7 +500,7 @@ button{
 	vertical-align: middle;
 }
 .support-item p {
-	font-weight:600;
+	font-weight: 600;
 }
 .bg-blue {
 	background-color: rgb(204, 251, 233);
@@ -545,7 +514,6 @@ button{
 	bottom: 3px;
 }
 .icon-support:hover {
-	transition: all .5s ease 0s; 
 	transform: scale(1.2);
 }
 .section-post {
@@ -567,16 +535,14 @@ button{
 .blog-list li {
 	position: relative;
 }
-
 .blog-list li img:hover {
-	transition: all .5s ease 0s; 
 	transform: scale(1.2);
 }
 .badges-red {
 	padding: 3px 11px;
 	background-color: #c61a32;
 	color: white;
-	font-weight:600;
+	font-weight: 600;
 }
 .blog-categories {
 	position: absolute;
@@ -624,7 +590,7 @@ button{
 	color: #a749ff;
 }
 .title-footer {
-	font-size: 18px !important;
+	font-size: 18px;
 	color: black;
 }
 .page-footer li {
@@ -634,13 +600,11 @@ button{
 .page-footer li:first-child {
 	padding-top: 0;
 }
-
 .footer-col {
 	width: 16.66666%;
 	vertical-align: middle;
 	padding: 0 30px;
 }
-
 .footer-col-2 {
 	padding-left: 80px;
 	padding-right: 0;
@@ -648,7 +612,6 @@ button{
 	vertical-align: middle;
 	line-height: 20px;
 }
-
 .footer-col-2 p {
 	margin-bottom: 25px;
 	padding-right: 0;
@@ -656,7 +619,7 @@ button{
 .footer-col-2 button {
 	display: block;
 	text-decoration: underline;
-	font-size: 13px !important;
+	font-size: 13px;
 	font-weight: 400; 
 }
 .footer-col-2 button:hover {
@@ -677,18 +640,19 @@ button{
 }
 input[type="text"] {
 	margin-bottom: 25px;
-	border:none;
-	width: 	100%;
+	border: none;
+	width: 100%;
 	height: 30px;
 	background-color: transparent;
 	border-bottom: 2px solid #ebebeb;
 }
 .scroll-top {
 	position: absolute;
-	padding: 16px 20px 16px 20px;
+	padding: 16px 20px;
 	border-radius: 50%;
 	background-color: #a749ff;
 	color: white;
 	bottom: 60px;
 	right: 20px;
 }
+
