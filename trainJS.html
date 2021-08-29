@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body {
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.red {
+		color: red;
+	}
+	li {
+		padding: 10px 0;
+	}
+
+</style>
+<body>
+	<p><span class="red">'null' </span>là biến không có giá trị. <span class="red">'undefided' </span>là biến chưa xác định được giá trị.</p>
+	<p><span class="red">'use strict' </span>là viết code js với các quy định nghiêm ngặt.</p>
+	<p>Lợi ích của việc sử dụng 'use strict' :</p>
+	<ul>
+		<li>Ngăn chặn sử dụng, và throw errors khi người lập trình thực hiện những xử lý<br>được coi là unsafe, những xử lý mà có thể là ngoài ý muốn.</li>
+		<li>Vô hiệu hoá các tính năng có thể gây nhầm lẫn, hoặc không nên được sử dụng.</li>
+		<li>Ngăn chặn sử dụng một số từ mà có thể sẽ được sử dụng làm keywork trong tương lai.</li>
+	</ul>
+	<p>Hạn chế của việc sử dụng 'use strict': </p>
+	<ul>
+		<li>Không thể sử dụng một biến mà không khái báo.</li>
+		<li>Báo lỗi ở những assignments vốn không thể thực hiện.</li>
+		<li>Báo lỗi khi delete những thứ không thể xoá.</li>
+		<li>Các tham số của một hàm không được phép trùng nhau.</li>
+		<li>Không sử dụng được cách viết số thuộc hệ bát phân với tiền tố là 0.</li>
+		<li>Không thể sử dụng with</li>
+		<li>Không sử dụng được biến được khai báo bên trong eval</li>
+		<li>Không thể sử dụng eval và arguments như là một identifier</li>
+		<li>Thay đổi cách thức hoạt động của this trong một số trường hợp</li>
+		<li>Không thể định nghĩa function bên trong một statement hay một block</li>
+	</ul>
+  <p><span class="red">'=='</span> là so sánh với giá trị và tự động ép kiểu để so sánh.<br> 
+  	<span class="red">'==='</span> là so sánh giá trị và kiểu dữ liệu , không ép kiểu để so sánh.</p>
+  <p><span class="red">'Falsy'</span> gồm: 0, 0n, null, undefided, false, NaN, " "</p>   
+</body>
+<script type="text/javascript" src="App.js"></script>
+</html>
