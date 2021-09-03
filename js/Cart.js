@@ -24,8 +24,6 @@ if (sessionStorage.getItem("Cart") != null) {
   loadCart();
 }
 
-
-
 var obj = {};
   // List cart
   obj.listCart = function() {
@@ -99,7 +97,7 @@ function displayCart() {
   $listCart.innerHTML += itemCart;
 }
 if($listCart){
-displayCart();
+  displayCart();
 }
 var $counterCart = document.getElementById('counter-cart');
 var $btnAddToCart = document.getElementsByClassName('add-to-cart');
@@ -111,17 +109,17 @@ console.log($btnDeleteItemCart);
 if($btnAddToCart){
   var loopAdd = function loopAdd(i) {
     $btnAddToCart[i].addEventListener('click',function(){
-    var id = $btnAddToCart[i].getAttribute('data-index');
-    var title = $btnAddToCart[i].getAttribute('data-title');
-    var price = $btnAddToCart[i].getAttribute('data-price');
-    var image = $btnAddToCart[i].getAttribute('data-image');
+      var id = $btnAddToCart[i].getAttribute('data-index');
+      var title = $btnAddToCart[i].getAttribute('data-title');
+      var price = $btnAddToCart[i].getAttribute('data-price');
+      var image = $btnAddToCart[i].getAttribute('data-image');
       shoppingCart.addItemToCart(id,title,image,price,1);
       window.location.href = "listProduct.html";
     });
   };
   for(var i=0; i < $btnAddToCart.length; i++){
-  loopAdd(i);
-}
+    loopAdd(i);
+  }
 }
 
 $counterCart.innerText += shoppingCart.totalCount();
@@ -139,8 +137,8 @@ if($btnDeleteItemCart){
     });
   };
   for(var i =0 ; i < $btnDeleteItemCart.length; i++){
-  loopDelete(i);
-}
+    loopDelete(i);
+  }
 }
 
 
