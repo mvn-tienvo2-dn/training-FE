@@ -701,6 +701,20 @@ input[type="text"] {
 	color: white;
 	bottom: 20px;
 }
+tr td {
+	border: 2px solid #ebebeb;
+}
+th {
+	border: 2px solid #ebebeb !important;
+}
+table {
+	text-align: center;
+	width: 100%;
+	border: 2px solid #ebebeb;
+}
+.delete-item:hover {
+	color: red;
+}
 
 @media only screen and  (max-width: 1280px) {
 	.container {
