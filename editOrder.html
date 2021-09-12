@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <title>Edit Order</title>
+  <link rel="stylesheet" type="text/css" href="Public/css/bootstrap.min1.css">
+  <link rel="stylesheet" type="text/css" href="Public/css/fontawesome.min.css"> 
+  <link rel="stylesheet" type="text/css" href="Public/css/regular.min.css">  
+  <link rel="stylesheet" type="text/css" href="Public/css/solid.min.css">  
+  <link rel="stylesheet" type="text/css" href="Public/css/brands.min.css">  
+  <link rel="stylesheet" type="text/css" href="Public/css/style.css">
+</head>
+<body>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+     <aside class="col-12 col-md-2 col-lg-2 p-0 bg-dark none" id="sidebar">
+      <nav class="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start">
+        <div class="collapse navbar-collapse">
+          <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link pl-0" href="managerOrder.html" id="pageorder" ><i class="fas fa-tasks"></i>Manager Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-0" href="createOrder.html" ><i class="far fa-plus-square"></i>Create Order</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+    <div class="toggle">
+      <button class=" btn btn-toggle" id="btnToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <main class="col">
+      <h1>Edit Order</h1>
+      <form action="managerOrder.html">
+       <fieldset class="form-group">
+         <label for="ordername">Order Name</label>
+         <input type="text" required class="form-control" id="ordername" placeholder="Enter Order Name">
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="customername">Customer Name</label>
+         <input type="text" required class="form-control" id="customername" placeholder="Enter Customer Name">
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="quantity">Quantity</label>
+         <select required class="form-control" id="quantity">
+           <option >1</option>
+           <option >2</option>
+           <option >3</option>
+           <option >4</option>
+           <option >5</option>
+         </select>
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="total">Total</label>
+         <input type="text" required class="form-control" id="total" placeholder="Enter Total">
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="address">Address</label>
+         <input type="text" required class="form-control" id="address" placeholder="Enter address">
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="status">Status</label>
+         <select required class="form-control" id="status">
+           <option >Wait</option>
+           <option >Done</option>
+         </select>
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="productname">Product Name</label>
+         <select required multiple class="form-control" id="productname">
+           <option >Product 1</option>
+           <option >Product 2</option>
+           <option >Product 3</option>
+           <option >Product 4</option>
+           <option >Product 5</option>
+           <option >Product 6</option>
+           <option >Product 7</option>
+           <option >Product 8</option>
+           <option >Product 9</option>
+           <option >Product 10</option>
+           <option >Product 11</option>
+           <option >Product 12</option>
+         </select>
+       </fieldset>
+       <fieldset class="form-group">
+         <label for="date">Date</label>
+         <input required type="date" class="form-control" id="date">
+       </fieldset>
+       <input type="submit" id="btnSubEdit" class="btn btn-primary" value="Submit">
+     </form>
+   </main>
+ </div>
+</div>
+<script type="text/javascript" src="js/editOrder.js"></script>
+<script type="text/javascript" src="js/event.js"></script>
+</body>
+</html>
+
