@@ -1,0 +1,77 @@
+body,html {
+	height: 100%;
+}
+i {
+	padding-right: 5px;
+}
+a {
+	font-weight: 600;
+}
+a:hover {
+	text-decoration:none;
+	color: #a2a4a8;
+}
+a:active {
+	text-decoration: none;
+	color: white;
+}
+h1, th {
+	color: #a2a4a8;
+}
+td {
+	font-weight: 600;
+	text-align: center;
+}
+th {
+	text-align: center;
+}
+.btn-toggle {
+	padding: 10px 10px;
+	display: none;
+}
+.btn-style {
+	border: 0;
+	background-color: transparent;
+}
+.btn-style:hover {
+	color: #a2a4a8;
+}
+.btnEdit {
+	color: #516ea8; 
+}
+.btnDelete {
+	color: #ab051b;
+}
+.content-detail {
+	color: #a2a4a8;
+	font-weight: 600;
+}
+span {
+	color: #292626;
+}
+.nav-link {
+	color: #8391a2 !important;
+}
+.nav-link:hover {
+	color: #a2a4a8 !important;
+}
+@media only screen and (max-width: 1024px) {
+	.none {
+		display: none ;
+		transition: width 2s;
+	}
+	.btn-toggle {
+		display: inline-block;
+		background-color: transparent;
+		font-size: 20px; 
+	}
+	.btn-toggle:hover {
+		color: #a2a4a8;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.h-100 {
+		height: unset !important;
+	}
+}
+
